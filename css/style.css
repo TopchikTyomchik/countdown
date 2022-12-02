@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/*!Обнуление*/
+*, *::before, *::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*!---------0-----------*/
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;  
+}
+
+[class*=__container] {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #9E6EF1;
+}
+
+.body {
+
+}
+.body__container {
+}
+.image {
+  margin-bottom: 20px;
+}
+img {
+  width: 100%;
+}
+.title {
+  text-align: center;
+  font-family: Lobster;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sub-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.countdown__item {
+  text-align: center;
+  background-color: rgb(55, 55, 171);
+  color: aliceblue;
+  padding: 10px;
+}
+
+
+.countdown__item__days {
+}
+.countdown__item__hours {
+}
+.countdown__item__min {
+}
+.countdown__item__sec {
+}
+
+@media  (max-width: 400px){
+  .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .sub-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
