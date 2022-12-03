@@ -1,6 +1,6 @@
 let items = document.querySelectorAll("h3");   
 let countdownElement = document.querySelector(".countdown");   
-const countdownTime = new Date(2022, 11, 3, 13, 18, 59, 0).getTime();
+const countdownTime = new Date(2042, 11, 3, 13, 18, 59, 0).getTime();
 
 function getCountDown() {
    const presentTime = new Date().getTime();
